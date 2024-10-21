@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CODECO PHOTOGRAPY & WEB DESIGN</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo-white.png" alt="logo" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li class="nav__logo">
+            <a href="#">
+              <img src="assets/logo-white.png" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#client">CLIENT</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="section__container about__container" id="about">
+      <h2 class="section__header">CHRISTMAS AND DISCOUNTS ARE HERE!</h2>
+      <p class="section__description">
+        Whether it’s a dynamic marketing campaign, a stunning website, or 
+        eye-catching photography, we provide tailored solutions to elevate 
+        your brand. Let us bring your vision to life and ensure your business 
+        stands out in a competitive market. Trust us to handle it all seamlessly.
+      </p>
+      <p class="section__description">
+        From professional branding through web design to impactful photography,
+         we deliver marketing services that make your business shine. Each 
+         project is crafted with care to meet your unique needs. Trust us 
+         to create powerful visuals that engage your audience and elevate your 
+         brand.
+      </p>
+      <img src="assets/logo-dark.png" alt="logo" />
+    </div>
+
+    <div class="section__container portfolio__container">
+      <h2 class="section__header">~ PORTFOLIO ~</h2>
+      <div class="portfolio__grid">
+        <div class="portfolio__card">
+          <img src="assets/portfolio-1.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">PHOTOGRAPY</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/portfolio-2.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">WEB DESIGN</button>
+          </div>
+        </div>
+        <div class="portfolio__card">
+          <img src="assets/portfolio-3.jpg" alt="portfolio" />
+          <div class="portfolio__content">
+            <button class="btn">DRONE PHOTOGRAPY</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">~ SERVICES ~</h2>
+        <p class="section__description">
+          
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <h4>Real State Photography</h4>
+            <p>
+              Our professional photography sessions are designed to capture your
+               personality and style in breathtaking, high-quality images.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Web Design</h4>
+            <p>
+              Our web design services are crafted to reflect your brand’s unique identity, 
+              delivering visually stunning and functional websites.
+            </p>
+          </div>
+          <div class="service__card">
+            <h4>Something in mind?</h4>
+            <p>
+              Don´t hesitate to call us at 830 513-1384.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">~ TESTIMONIALS ~</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-1.jpg" alt="client" />
+              <p>
+                CODECO created an excellent website for our gardening business, 
+                making it look more professional. They also designed our brand 
+                logo, perfectly capturing our identity. Thanks to their strong
+                 work ethic, we have a photography session scheduled soon. Their
+                  professionalism and dedication have been outstanding!
+              </p>
+              <li><a href="https://juanamadomedina.com/"></li><h4>Juan Medina</h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-2.jpg" alt="client" />
+              <p>
+                We are beyond thrilled with the outstanding services 
+                provided by CODECO. They designed a top-notch website for us,
+                 elevating our business's professional image, and also created 
+                 our brand's logo. Thanks to their incredible work ethic, we already
+                  have a photography session scheduled with them soon.
+              </p>
+              <li><a href="https://newglasswork.com/"></li><h4>Marcos Bueno</B></h4>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/client-3.jpg" alt="client" />
+              <p>
+                CODECO developed an awesome website for my private styling
+                 business, enhancing its professional image. They also crafted
+                  a beautiful logo that reflects my brand perfectly.
+                   Due to their impressive work ethic, I have a photography 
+                   session scheduled soon. Their professionalism and commitment 
+                   have been exceptional!
+
+              </p>
+              <div>
+                <h4><a href="https://marystyle.site/" target="">Mary Jhonson</a></h4>
+            </div>
+            
+          </div>
+        </div>
+        <!-- If we need pagination -->
+       
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+<!--
+    <section class="section__container gallery__container">
+      <h2 class="section__header">~ GALLERY ~</h2>
+      <div class="gallery__grid">
+        <img src="assets/image-1.jpg" alt="gallery" />
+        <img src="assets/image-2.jpg" alt="gallery" />
+        <img src="assets/image-3.jpg" alt="gallery" />
+        <img src="assets/image-4.jpg" alt="gallery" />
+        <img src="assets/image-5.jpg" alt="gallery" />
+        <img src="assets/image-6.jpg" alt="gallery" />
+        <img src="assets/image-7.jpg" alt="gallery" />
+        <img src="assets/image-8.jpg" alt="gallery" />
+      </div>
+      <div class="gallery__btn">
+        <button class="btn">VIEW GALLERY</button>
+      </div>
+    </section>
+  -->
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <div class="blog__content">
+          <h2 class="section__header">PROMOTION NOVEMBER & DECEMBER</h2>
+          <h4>Do not missed this crazy discounts!</h4>
+          <p>
+            This blog post explores the incredible discounts and promotions 
+            available during this peak economic season, designed to boost 
+            your business sales. Readers will discover effective strategies 
+            and services that can enhance their offerings, attract more 
+            customers, and maximize revenue during these crucial months.
+          </p>
+          <!--
+          <div class="blog__btn">
+            <button class="btn">Read More</button>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+   <!-- <section class="section__container instagram__container">
+      <h2 class="section__header">~ INSTAGRAM ~</h2>
+      <div class="instagram__flex">
+        <img src="assets/image-1.jpg" alt="instagram" />
+        <img src="assets/image-2.jpg" alt="instagram" />
+        <img src="assets/image-3.jpg" alt="instagram" />
+        <img src="assets/image-4.jpg" alt="instagram" />
+        <img src="assets/image-5.jpg" alt="instagram" />
+        <img src="assets/image-6.jpg" alt="instagram" />
+        <img src="assets/image-7.jpg" alt="instagram" />
+        <img src="assets/image-8.jpg" alt="instagram" />
+      </div>-->
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/profile.php?id=61565019067988"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/codeco210/"><i class="ri-instagram-line"></i></a>
+            <a href="https://www.youtube.com/@CODECO407"><i class="ri-youtube-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <ul class="footer__links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#service">SERVICES</a></li>
+            <li><a href="#client">CLIENT</a></li>
+            <li><a href="#blog">BLOG</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>STAY IN TOUCH</h4>
+          <p>
+            Keep up-to-date with all things Capturer! Join our community and
+            never miss a moment!
+          </p>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 CODECO. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
